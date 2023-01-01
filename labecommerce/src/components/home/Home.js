@@ -40,16 +40,14 @@ export const Home = () => {
     .map((product) => {
     	return (
 			<ProductCard key={product.id}
-                name={product.name}
-                price={product.price}
-                image={product.imageUrl}
+                product={product}
             />
 		)
   	})
 
     return (
         <div>
-            <Header/>
+            <Header />
             <Filters
                 query={query}
                 minPrice={minPrice}

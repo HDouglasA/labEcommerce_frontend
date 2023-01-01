@@ -37,6 +37,7 @@ export const ContainerProduct = styled.div`
         margin-top: 2%;
         border: 1px solid gray;
     }
+    
     button:hover{
         background-color: #ADEAEA;
         border: none;
@@ -45,6 +46,7 @@ export const ContainerProduct = styled.div`
         box-shadow: 0 1px 2px 1px #696969;
 
     }
+
     button:active{
         transition: 0s;
         -webkit-filter: drop-shadow(1px 6px 3px rgba(0,0,0,.5));

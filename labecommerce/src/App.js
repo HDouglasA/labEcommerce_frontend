@@ -1,11 +1,11 @@
-import { Home } from './components/home/Home';
 import { GlobalStyle } from './GlobalStyle';
+import { Router } from './Router';
 
 export const App = () => {
     return (
         <div>
             <GlobalStyle/>
-            <Home/>
+            <Router/>
         </div>
     )
 }

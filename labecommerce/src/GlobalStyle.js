@@ -12,20 +12,33 @@ export const GlobalStyle = createGlobalStyle`
 
     header {
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
         padding: 4vh;
         background-color: #ADEAEA;
 
-        a {
+        p {
             font-size: 30px;
             text-decoration: none;
             color: black;
+            cursor: pointer;
+            
             span {
                 font-size: 30px;
                 font-weight: 900;
                 text-transform: uppercase;
             }
+        }
+
+        img {
+            width: 40px;
+            cursor: pointer;
+        }
+
+        img:hover, p:hover{
+            transition: 0s;
+            -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+            filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
         }
     }
 
