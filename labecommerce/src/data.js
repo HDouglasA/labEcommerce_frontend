@@ -1,122 +1,146 @@
 export const Products = [
     {
         id: 1,
-        name: "AstroBolha",
-        price: 8.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-029-300x300.jpg"
+        name: "Minato Namikaze",
+        price: 8,
+        imageUrl: "https://m.media-amazon.com/images/I/61gOe1Mv3BL._AC_SX569_.jpg"
     },
     {
         id: 2,
-        name: "E.T - O Emplacado",
-        price: 19.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-019-300x300.jpg"
+        name: "Madara Uchiha",
+        price: 19,
+        imageUrl: "https://m.media-amazon.com/images/I/51ZMVZbeZOL._AC_SX569_.jpg"
     },
     {
         id: 3,
-        name: "Gato das Galáxias",
-        price: 28.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-021-300x300.jpg"
+        name: "Gaara",
+        price: 28,
+        imageUrl: "https://m.media-amazon.com/images/I/616YRHWRZwL._AC_SX679_.jpg"
     },
     {
         id: 4,
-        name: "Tudo sob controle",
-        price: 32.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-018-300x300.jpg"
+        name: "Jiraiya on Toad",
+        price: 32,
+        imageUrl: "https://m.media-amazon.com/images/I/71gJ1ZKFVJL._AC_SY741_.jpg"
     },
     {
         id: 5,
-        name: "ET - The Section",
-        price: 45.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-026-300x300.jpg"
+        name: "Naruto On Gamakichi",
+        price: 45,
+        imageUrl: "https://m.media-amazon.com/images/I/51Pvn1eqnsL._AC_SX569_.jpg"
     },
     {
         id: 6,
-        name: "O Manipulador",
-        price: 58.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-031-300x300.jpg"
+        name: "Naruto (Sage Mode)",
+        price: 58,
+        imageUrl: "https://m.media-amazon.com/images/I/51SaETLpwgL._AC_SX569_.jpg"
     },
     {
         id: 7,
-        name: "Breaking Bad Trailer",
-        price: 60.90,
-        imageUrl: "https://m.media-amazon.com/images/I/413ZzAaTy5L._AC_.jpg"
+        name: "Pain Almighty",
+        price: 60,
+        imageUrl: "https://m.media-amazon.com/images/I/51O2AYB4RQL._AC_SX569_.jpg"
     },
     {
         id: 8,
-        name: "Los Pollos Hermanos",
-        price: 73.90,
-        imageUrl: "https://m.media-amazon.com/images/I/61Wyl0ipgeL._AC_SL1300_.jpg"
+        name: "Kakashi (Raikiri)",
+        price: 73,
+        imageUrl: "https://m.media-amazon.com/images/I/51qrmq+JbLL._AC_SX569_.jpg"
     },
     {
         id: 9,
-        name: "O Miranha",
-        price: 88.90,
-        imageUrl: "https://m.media-amazon.com/images/I/81mylOHu+nS._AC_SL1500_.jpg"
+        name: "Tobi",
+        price: 88,
+        imageUrl: "https://m.media-amazon.com/images/I/51-H7QOsVES._AC_SX569_.jpg"
     },
     {
         id: 10,
-        name: "WandaVision",
-        price: 92.90,
-        imageUrl: "https://m.media-amazon.com/images/I/71k9mO0PGLS._AC_SL1500_.jpg"
+        name: "PICCOLO",
+        price: 92,
+        imageUrl: "https://m.media-amazon.com/images/I/51p9UwpZsuL._AC_SX569_.jpg"
     },
     {
         id: 11,
-        name: "Groot Feelings Today",
-        price: 102.90,
-        imageUrl: "https://m.media-amazon.com/images/I/91hyrSy2+eL._AC_SL1500_.jpg"
+        name: "Kuririn with Kienzan",
+        price: 102,
+        imageUrl: "https://m.media-amazon.com/images/I/513FEA3jLUL._AC_SX569_.jpg"
     },
     {
         id: 12,
-        name: "Stark Industries",
-        price: 115.90,
-        imageUrl: "https://m.media-amazon.com/images/I/714SLaZuZSL._AC_SL1500_.jpg"
+        name: "Prince Vegeta",
+        price: 115,
+        imageUrl: "https://m.media-amazon.com/images/I/61je8va-QgL._AC_SX569_.jpg"
     },
     {
         id: 13,
-        name: "C.A.P",
-        price: 220.90,
-        imageUrl: "https://m.media-amazon.com/images/I/61DpA1BW6CS._AC_SL1500_.jpg"
+        name: "Alphonse Elric",
+        price: 250,
+        imageUrl: "https://m.media-amazon.com/images/I/61ba+jO8mTL._AC_SX569_.jpg"
     },
     {
         id: 14,
-        name: "Venom",
-        price: 250.90,
-        imageUrl: "https://m.media-amazon.com/images/I/71ypmajhhUL._AC_SL1500_.jpg"
+        name: "Harry P. Quidditch",
+        price: 312,
+        imageUrl: "https://m.media-amazon.com/images/I/51e3AXhnnhL._AC_SY879_.jpg"
     },
     {
         id: 15,
-        name: "Avengers",
-        price: 312.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/08/MR-012-600x600.jpg"
+        name: "Hermione Granger",
+        price: 400,
+        imageUrl: "https://m.media-amazon.com/images/I/51zP76rA1+L._AC_SY879_.jpg"
     },
     {
         id: 16,
-        name: "Indesejável Número 1r",
-        price: 400.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/07/FR-210-600x600.jpg"
+        name: "Steve Stranger Things",
+        price: 1000,
+        imageUrl: "https://m.media-amazon.com/images/I/61Z4xOVz3wL._AC_SX569_.jpg"
     },
     {
         id: 17,
-        name: "Expresso Patronum",
-        price: 83.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/07/FR-356-600x600.jpg"
+        name: "Max Stranger Things",
+        price: 2000,
+        imageUrl: "https://m.media-amazon.com/images/I/51zybNX1UQL._AC_SX569_.jpg"
     },
     {
         id: 18,
-        name: "Dragon Ball Super – Goku",
-        price: 185.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-022-600x600.jpg"
+        name: "Eleven Stranger Things",
+        price: 1300,
+        imageUrl: "https://m.media-amazon.com/images/I/619SLphdGfL._AC_SX569_.jpg"
     },
     {
         id: 19,
-        name: "Gravity Falls",
-        price: 235.90,
-        imageUrl: "https://www.rockzclub.com.br/wp-content/uploads/2017/10/MR-028-600x600.jpg"
+        name: "Eddie Stranger Things",
+        price: 2500,
+        imageUrl: "https://m.media-amazon.com/images/I/61YNOAXeFoL._AC_SX569_.jpg"
     },
     {
         id: 20,
-        name: "Naruto",
-        price: 48.90,
-        imageUrl: "https://m.media-amazon.com/images/I/91Zlw9rDriL._AC_SL1500_.jpg"
+        name: "Dustin Stranger Things",
+        price: 1450,
+        imageUrl: "https://m.media-amazon.com/images/I/61PLrBU5WnL._AC_SX569_.jpg"
+    },
+    {
+        id: 21,
+        name: "THANOS ENDGAME",
+        price: 63,
+        imageUrl: "https://m.media-amazon.com/images/I/51XyY1B5OSL._AC_SX569_.jpg"
+    },
+    {
+        id: 22,
+        name: "The Mandalorian",
+        price: 500,
+        imageUrl: "https://m.media-amazon.com/images/I/51DidBXFOcL._AC_SX679_.jpg"
+    },
+    {
+        id: 23,
+        name: "Godfather Vito Corleone",
+        price: 3012,
+        imageUrl: "https://m.media-amazon.com/images/I/51z+DwwfrbL._AC_SX569_.jpg"
+    },
+    {
+        id: 24,
+        name: "BCS Jimmy Mcgill",
+        price: 4000,
+        imageUrl: "https://m.media-amazon.com/images/I/41p0AXmFfTL._AC_.jpg"
     }
 ]

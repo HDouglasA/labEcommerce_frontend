@@ -7,19 +7,18 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: #F5F5F5;
+        background-color: #E6E8FA;
     }
 
     header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 7vh 0;
-        background-color: #F5F5F5;
-        box-shadow: 1px 2px 2px 2px #696969;
+        padding: 4vh;
+        background-color: #ADEAEA;
 
         a {
-            font-size: 26px;
+            font-size: 30px;
             text-decoration: none;
             color: black;
             span {
@@ -33,11 +32,11 @@ export const GlobalStyle = createGlobalStyle`
     footer {
         display: flex;
         flex-direction: column;
-        padding-top: 5vh;
-        background-color: #344150;
         justify-content: center;
         align-items: center;
-        padding-bottom: 2vh;
+        padding-top: 6vh;
+        padding-bottom: 3vh;
+        background-color: #344150;
         color: white;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 18px;
@@ -47,4 +46,10 @@ export const GlobalStyle = createGlobalStyle`
             margin-top: 10px;
         }
     }
+
+    input:focus {
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    } 
 `

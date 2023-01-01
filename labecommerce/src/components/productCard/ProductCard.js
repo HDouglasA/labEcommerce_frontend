@@ -1,13 +1,12 @@
-import { ContainerProduct, NameAndImage } from "./style"
+import { ContainerProduct} from "./style"
 
 export const ProductCard = ({name, price, image}) => {
     return (
         <ContainerProduct>
-            <NameAndImage>
-                <h3>{name}</h3>
-                <p>R${price}</p>
-            </NameAndImage>
             <img src={image} alt={name}/>
+            <h3>{name}</h3>
+            <p>R$ {price},00</p>
+            <button>Adicionar ao Carrinho</button>
         </ContainerProduct>
     )
 }
