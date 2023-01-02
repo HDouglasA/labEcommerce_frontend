@@ -6,7 +6,7 @@ import { Header } from "../header/Header";
 import { ProductCard } from "../productCard/ProductCard";
 import { ContainerProducts, NotProduct } from "./Style";
 
-export const Home = () => {
+export const Home = ({addToCart}) => {
     const [query, setQuery] = useState("")
     const [minPrice, setMinPrice] = useState("")
     const [maxPrice, setMaxPrice] = useState("")
@@ -15,7 +15,7 @@ export const Home = () => {
 
     const componentProduct = Products
     .filter((product) => {
-       return product.name.toLowerCase().includes(query.toLowerCase()) 
+        return product.name.toLowerCase().includes(query.toLowerCase()) 
     })
     .filter((product) => {
         return product.price >= minPrice || minPrice === ""
@@ -41,6 +41,7 @@ export const Home = () => {
     	return (
 			<ProductCard key={product.id}
                 product={product}
+                addToCart={addToCart}
             />
 		)
   	})

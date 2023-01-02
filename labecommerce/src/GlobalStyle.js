@@ -17,6 +17,16 @@ export const GlobalStyle = createGlobalStyle`
         padding: 4vh;
         background-color: #ADEAEA;
 
+        button{
+            display: flex;
+            align-items: flex-end;
+            background-color: transparent;
+            border: none;
+            h6{
+                font-size:18px
+            }
+        }
+
         p {
             font-size: 30px;
             text-decoration: none;
@@ -35,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
             cursor: pointer;
         }
 
-        img:hover, p:hover{
+        button:hover, img:hover, p:hover{
             transition: 0s;
             -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
             filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));

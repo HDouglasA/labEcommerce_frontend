@@ -32,7 +32,7 @@ export const Products = [
     {
         id: 6,
         name: "Naruto (Sage Mode)",
-        price: 58,
+        price: 2000,
         imageUrl: "https://m.media-amazon.com/images/I/51SaETLpwgL._AC_SX569_.jpg"
     },
     {
@@ -98,7 +98,7 @@ export const Products = [
     {
         id: 17,
         name: "Max Stranger Things",
-        price: 2000,
+        price: 58,
         imageUrl: "https://m.media-amazon.com/images/I/51zybNX1UQL._AC_SX569_.jpg"
     },
     {
