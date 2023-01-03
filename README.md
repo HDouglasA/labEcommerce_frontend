@@ -47,7 +47,7 @@
 - Poder ordenar todos os produtos por ordem crescente;
 - Poder ordenar todos os produtos por ordem decrescente.
 
-<p>Tanto por Nome como por Preço.</p>
+<p>Por Nome ou por Preço.</p>
 
 #
 
