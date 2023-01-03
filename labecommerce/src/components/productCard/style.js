@@ -27,7 +27,7 @@ export const ContainerProduct = styled.div`
         border-bottom: 2px solid black;
     }
 
-    button {
+    button{
         padding: 5%;
         background-color:white;
         border: none;
@@ -44,7 +44,6 @@ export const ContainerProduct = styled.div`
         cursor: pointer;
         transition: 0.3s;
         box-shadow: 0 1px 2px 1px #696969;
-
     }
 
     button:active{

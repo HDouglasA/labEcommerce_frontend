@@ -19,7 +19,6 @@ export const Router = () => {
     }
 
     const addToCart = (name, price, imageUrl) => {
-
         const checkForProductOnCart = productsOnCart.filter((prodCart) => {
             return prodCart.name === name
         })
@@ -60,6 +59,7 @@ export const Router = () => {
             const newCart = productsOnCart.filter((prod) =>{
                 return prod.name !== product.name
             })
+            
             setProductsOnCart(newCart)
             localStorage.setItem("cart", JSON.stringify(newCart)) 
         

@@ -10,46 +10,10 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #E6E8FA;
     }
 
-    header {
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-        padding: 4vh;
-        background-color: #ADEAEA;
-
-        button{
-            display: flex;
-            align-items: flex-end;
-            background-color: transparent;
-            border: none;
-            h6{
-                font-size:18px
-            }
-        }
-
-        p {
-            font-size: 30px;
-            text-decoration: none;
-            color: black;
-            cursor: pointer;
-            
-            span {
-                font-size: 30px;
-                font-weight: 900;
-                text-transform: uppercase;
-            }
-        }
-
-        img {
-            width: 40px;
-            cursor: pointer;
-        }
-
-        button:hover, img:hover, p:hover{
-            transition: 0s;
-            -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
-            filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
-        }
+    input:focus {
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
     }
 
     footer {
@@ -68,11 +32,5 @@ export const GlobalStyle = createGlobalStyle`
             height: 50px;
             margin-top: 10px;
         }
-    }
-
-    input:focus {
-        box-shadow: 0 0 0 0;
-        border: 0 none;
-        outline: 0;
     } 
 `

@@ -1,4 +1,4 @@
-import { ContainerProduct} from "./style"
+import { ContainerProduct} from "./Style"
 
 export const ProductCard = ({product, addToCart}) => {
     return (
