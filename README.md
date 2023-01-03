@@ -56,7 +56,7 @@
 <p>
    Responsável por receber os Produtos previamente selecionados pelo Usuário e mostrar o valor total da compra.
    <br/>
-   Em cada card de Produto há um botão para removê-lo do Carrinho. Além de exibir a quantidade de cada produto à ser comprado.
+   Em cada card de Produto há um botão para removê-lo do Carrinho. Além de exibir a quantidade do produto à ser comprado.
 </p>
 
 ![cart](https://user-images.githubusercontent.com/102442943/210386078-e384cd09-4de4-49eb-8611-b516e1621a75.png)
