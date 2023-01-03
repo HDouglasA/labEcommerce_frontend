@@ -9,7 +9,7 @@ export const ContainerFilters = styled.div`
     box-shadow: 2px 2px 2px #696969;
     background-color: #70DBDB;
 
-    section {
+    section{
         display: flex;
         gap: 7px;
     }
@@ -26,13 +26,13 @@ export const Search = styled.div`
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.25);
     margin-right: 15px;
     
-    img {
+    img{
         width: 30px;
         padding-right: 8px;
         cursor: pointer;
     }
 
-    input {
+    input{
         background-color: transparent;
         padding-left: 10px;
         font-style: italic;
@@ -60,7 +60,7 @@ export const Sorting = styled.div`
     align-items: center;
     gap: 5px;
 
-    label {
+    label{
         font-size:18px;
     }
 
@@ -77,7 +77,7 @@ export const Sorting = styled.div`
         border: 1px solid black;
     }
 
-    select:focus {
+    select:focus{
         border: 1px solid black;
         outline: 0;
     }
